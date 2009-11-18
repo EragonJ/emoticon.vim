@@ -30,3 +30,6 @@ Command
 
     :NewEmoticon
 
+You can put <args> in Chinese about your zodiac , then it will show you the result for your zodiac today
+		:NewMind <args>
+
