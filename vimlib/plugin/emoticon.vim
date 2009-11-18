@@ -5,7 +5,7 @@
 " Email:  cornelius.howl@gmail.com
 " Date:   二 11/17 20:30:28 2009
 " Version: 0.1
-"
+
 " http://github.com/c9s
 
 scriptencoding utf8
@@ -61,3 +61,5 @@ fun! s:newemoticon()
 endf
 
 com! NewEmoticon :cal s:newemoticon()
+com! -nargs=1 NewMind :!php mindlist.php <args>
+
